@@ -215,7 +215,7 @@ local OFCUidreck = {
 --Properties:
 
 OFCUidreck.OFCUidreck.Name = "OFCUidreck"
-OFCUidreck.OFCUidreck.Parent = game.CoreGui
+OFCUidreck.OFCUidreck.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 OFCUidreck.Main.Name = "Main"
 OFCUidreck.Main.Parent = OFCUidreck.OFCUidreck
@@ -2414,7 +2414,7 @@ OFCUidreck.ScriptsAimbot.Visible = false
 
 -- Scripts:
 
-local function USHVVP_fake_script() -- OFCUidreck.Main.ConfigMenuScripts 
+local function AFROPP_fake_script() -- OFCUidreck.Main.ConfigMenuScripts 
 	local script = Instance.new('LocalScript', OFCUidreck.Main)
 
 	
@@ -2771,8 +2771,8 @@ local function USHVVP_fake_script() -- OFCUidreck.Main.ConfigMenuScripts
 		tween:Play()
 	end)
 end
-coroutine.wrap(USHVVP_fake_script)()
-local function LIZHRKE_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptTextBoxVelocidadejogador 
+coroutine.wrap(AFROPP_fake_script)()
+local function KDWLWS_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptTextBoxVelocidadejogador 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -2811,8 +2811,8 @@ local function LIZHRKE_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptTextBoxVe
 	
 	
 end
-coroutine.wrap(LIZHRKE_fake_script)()
-local function QHMXEN_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptSuicidioJogador 
+coroutine.wrap(KDWLWS_fake_script)()
+local function KOTAFVT_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptSuicidioJogador 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -2830,8 +2830,8 @@ local function QHMXEN_fake_script() -- OFCUidreck.ScriptsAimbot.ScriptSuicidioJo
 	
 	
 end
-coroutine.wrap(QHMXEN_fake_script)()
-local function QSWKJWV_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxTamanhodacabeca 
+coroutine.wrap(KOTAFVT_fake_script)()
+local function OSNOBS_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxTamanhodacabeca 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -2875,8 +2875,8 @@ local function QSWKJWV_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxTamanhod
 	
 	
 end
-coroutine.wrap(QSWKJWV_fake_script)()
-local function WATAAYV_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxClimatica 
+coroutine.wrap(OSNOBS_fake_script)()
+local function WDLSB_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxClimatica 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -2904,8 +2904,8 @@ local function WATAAYV_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxClimatic
 	
 	
 end
-coroutine.wrap(WATAAYV_fake_script)()
-local function ICAN_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxNomeJogador 
+coroutine.wrap(WDLSB_fake_script)()
+local function GENG_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxNomeJogador 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -2956,8 +2956,8 @@ local function ICAN_fake_script() -- OFCUidreck.ScriptsAimbot.TextBoxNomeJogador
 	
 	
 end
-coroutine.wrap(ICAN_fake_script)()
-local function KOFCI_fake_script() -- OFCUidreck.ScriptsAimbot.BotaoTPrandow 
+coroutine.wrap(GENG_fake_script)()
+local function OQEONIX_fake_script() -- OFCUidreck.ScriptsAimbot.BotaoTPrandow 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	local ExploitScriptMISC = script.Parent.Parent.menus.FrameMenuMisc
@@ -3016,8 +3016,8 @@ local function KOFCI_fake_script() -- OFCUidreck.ScriptsAimbot.BotaoTPrandow
 	
 	
 end
-coroutine.wrap(KOFCI_fake_script)()
-local function WNMEOS_fake_script() -- OFCUidreck.ScriptsAimbot.Aimbot-Completo 
+coroutine.wrap(OQEONIX_fake_script)()
+local function WOCW_fake_script() -- OFCUidreck.ScriptsAimbot.Aimbot-Completo 
 	local script = Instance.new('LocalScript', OFCUidreck.ScriptsAimbot)
 
 	--// Preventing Multiple Processes
@@ -3059,7 +3059,7 @@ local function WNMEOS_fake_script() -- OFCUidreck.ScriptsAimbot.Aimbot-Completo
 		SendNotifications = false,
 		SaveSettings = true, -- Re-execute upon changing
 		ReloadOnTeleport = false,
-		Enabled = false,
+		Enabled = true,
 		TeamCheck = false,
 		AliveCheck = true,
 		WallCheck = false, -- Laggy
@@ -3592,5 +3592,4 @@ local function WNMEOS_fake_script() -- OFCUidreck.ScriptsAimbot.Aimbot-Completo
 	
 	
 end
-coroutine.wrap(WNMEOS_fake_script)()
-
+coroutine.wrap(WOCW_fake_script)()
