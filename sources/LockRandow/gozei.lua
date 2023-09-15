@@ -22,7 +22,7 @@ local UIGradient_5 = Instance.new("UIGradient")
 --Properties:
 
 FrameDropsDisponivel.Name = "FrameDropsDisponivel"
-FrameDropsDisponivel.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FrameDropsDisponivel.Parent = game.CoreGui
 
 FrameDropsDisponivel_2.Name = "FrameDropsDisponivel"
 FrameDropsDisponivel_2.Parent = FrameDropsDisponivel
