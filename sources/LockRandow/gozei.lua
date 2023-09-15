@@ -173,7 +173,7 @@ local function HNIMRO_fake_script() -- FrameDropsDisponivel.LocalScript
 	local function mainLoop()
 		while true do
 			findAndCount()
-			wait(5) -- Aguarde 5 segundos antes de chamar a função novamente
+			wait(1) -- Aguarde 5 segundos antes de chamar a função novamente
 		end
 	end
 	
