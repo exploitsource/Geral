@@ -132,7 +132,7 @@ UIGradient_5.Parent = FrameDropsDisponivel_2
 
 -- Scripts:
 
-local function RCGQNFH_fake_script() -- FrameDropsDisponivel.LocalScript 
+local function HNIMRO_fake_script() -- FrameDropsDisponivel.LocalScript 
 	local script = Instance.new('LocalScript', FrameDropsDisponivel)
 
 	
@@ -168,15 +168,25 @@ local function RCGQNFH_fake_script() -- FrameDropsDisponivel.LocalScript
 				warn("Não há gotas disponíveis para teleportar.")
 			end
 		end)
+	end	
+	
+	local function mainLoop()
+		while true do
+			findAndCount()
+			wait(5) -- Aguarde 5 segundos antes de chamar a função novamente
+		end
 	end
 	
 	local workspace = game:GetService("Workspace")
 	workspace.ChildAdded:Connect(findAndCount)
 	
-	findAndCount()
+	-- Iniciar o loop principal
+	mainLoop()
+	
+	
 end
-coroutine.wrap(RCGQNFH_fake_script)()
-local function MGIY_fake_script() -- FrameDropsDisponivel.Bypass 
+coroutine.wrap(HNIMRO_fake_script)()
+local function XEWFNP_fake_script() -- FrameDropsDisponivel.Bypass 
 	local script = Instance.new('LocalScript', FrameDropsDisponivel)
 
 	function gozei()
@@ -211,4 +221,4 @@ local function MGIY_fake_script() -- FrameDropsDisponivel.Bypass
 	
 	gozei()
 end
-coroutine.wrap(MGIY_fake_script)()
+coroutine.wrap(XEWFNP_fake_script)()
