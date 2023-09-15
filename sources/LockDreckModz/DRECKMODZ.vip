@@ -215,7 +215,7 @@ local OFCUidreck = {
 --Properties:
 
 OFCUidreck.OFCUidreck.Name = "OFCUidreck"
-OFCUidreck.OFCUidreck.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OFCUidreck.OFCUidreck.Parent = game.CoreGui
 
 OFCUidreck.Main.Name = "Main"
 OFCUidreck.Main.Parent = OFCUidreck.OFCUidreck
