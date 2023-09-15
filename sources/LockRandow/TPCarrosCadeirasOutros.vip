@@ -172,7 +172,7 @@ local function RDGRCNL_fake_script() -- FrameDropsDisponivel.LocalScript
 	local function mainLoop()
 		while true do
 			findAndCount()
-			wait(1) -- Aguarde 1 segundos antes de chamar a função novamente
+			wait(5) -- Aguarde 5 segundos antes de chamar a função novamente
 		end
 	end
 	
