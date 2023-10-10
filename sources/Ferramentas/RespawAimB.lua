@@ -519,7 +519,7 @@ end
 
 if Environment.Settings.ReloadOnTeleport then
 	if queueonteleport then
-		queueonteleport(game:HttpGet("https://raw.githubusercontent.com/exploitsource/Teste/main/viadinho.vip"))
+		queueonteleport(game:HttpGet("https://raw.githubusercontent.com/exploitsource/Geral/main/sources/Ferramentas/RespawAimB.lua"))
 	else
 		SendNotification(Title, "Your exploit does not support \"syn.queue_on_teleport()\"")
 	end
