@@ -22,7 +22,7 @@ local Camera = game:GetService("Workspace").CurrentCamera
 --// Variables
 
 local LocalPlayer = Players.LocalPlayer
-local Title = "Exunys Developer"
+local Title = "gozei"
 local FileNames = {"Aimbot", "Configuration.json", "Drawing.json"}
 local Typing, Running, Animation, RequiredDistance, ServiceConnections = false, false, nil, 2000, {}
 
