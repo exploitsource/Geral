@@ -1,0 +1,55 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local menu = Instance.new("Frame")
+local botao1 = Instance.new("TextButton")
+local botao2 = Instance.new("TextButton")
+local botao3 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+menu.Name = "menu"
+menu.Parent = ScreenGui
+menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0.225714296, 0, 0.234615386, 0)
+menu.Size = UDim2.new(0, 206, 0, 269)
+
+botao1.Name = "botao1"
+botao1.Parent = menu
+botao1.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+botao1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+botao1.BorderSizePixel = 0
+botao1.Size = UDim2.new(0, 200, 0, 50)
+botao1.Font = Enum.Font.SourceSans
+botao1.TextColor3 = Color3.fromRGB(0, 0, 0)
+botao1.TextSize = 14.000
+
+botao2.Name = "botao2"
+botao2.Parent = menu
+botao2.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+botao2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+botao2.BorderSizePixel = 0
+botao2.Position = UDim2.new(0, 0, 0.304832727, 0)
+botao2.Size = UDim2.new(0, 200, 0, 50)
+botao2.Font = Enum.Font.SourceSans
+botao2.TextColor3 = Color3.fromRGB(0, 0, 0)
+botao2.TextSize = 14.000
+
+botao3.Name = "botao3"
+botao3.Parent = menu
+botao3.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+botao3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+botao3.BorderSizePixel = 0
+botao3.Position = UDim2.new(0, 0, 0.643122673, 0)
+botao3.Size = UDim2.new(0, 200, 0, 50)
+botao3.Font = Enum.Font.SourceSans
+botao3.TextColor3 = Color3.fromRGB(0, 0, 0)
+botao3.TextSize = 14.000
