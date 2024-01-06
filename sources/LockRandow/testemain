@@ -1,0 +1,32 @@
+--Load
+local Dreckmodz = loadstring(game:HttpGet(('https://raw.githubusercontent.com/exploitsource/Geral/main/sources/LockRandow/teste')))()
+
+
+local botao = Dreckmodz.Parent.botao3
+
+
+local function VWMSS_fake_script() -- botao3.LocalScript 
+	local script = Instance.new('LocalScript', botao)
+
+	local botaostudio = script.Parent.Parent.botao3
+	
+	botaostudio.MouseButton1Up:Connect(function()
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "DrEck Modz";
+	Text = "Parabens! O script foi executado com Sucesso1";
+	Icon = "http://www.roblox.com/asset/?id=11755544304"; 
+	Duration = 99999999;
+	Button1 = "";
+})
+	end)
+
+	
+end
+coroutine.wrap(VWMSS_fake_script)()
+
+
+
+
+
+
