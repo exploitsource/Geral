@@ -8,7 +8,7 @@ local botao = Dreckmodz.Parent.botao3
 local function VWMSS_fake_script() -- botao3.LocalScript 
 	local script = Instance.new('LocalScript', botao)
 
-	local botaostudio = script.Parent.Parent.botao3
+	local botaostudio = script.Parent
 	
 	botaostudio.MouseButton1Up:Connect(function()
 
